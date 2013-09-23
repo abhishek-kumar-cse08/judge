@@ -1,0 +1,148 @@
+.large { font-size : 24px; } 
+
+.medium { font-size : 20px; } 
+
+.small{ font-size : 16px; }
+
+.heading_large{ font-size : 24px;
+				 color : blue;}
+
+.large_round { border-radius : 5px;
+			   box-shadow: 10px 10px 5px #888888; }
+			
+.small_round { border-radius : 5px;
+			   box-shadow: 5px 5px 2px #888888; }
+
+.table{ padding: 10px 40px; 
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9ACD32), color-stop(1, #9ACD32) );
+		background:-moz-linear-gradient( center top, #9ACD32 5%, #9ACD32 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ACD32', endColorstr='#9ACD32');
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+}
+
+.text { border-radius : 5px; }
+
+.button { 
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+}
+
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}
+
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.upload { 
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	color:#ffffff;
+	padding:6px 24px;
+	font-weight:bold;
+}
+
+.upload:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}
+
+.button_small { 
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:4px 16px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+}
+
+.button_small:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}
+
+.button_small:active {
+	position:relative;
+	top:1px;
+}
+
+.radio{
+	display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+	border:2px dotted #00f
+    color:#00f;
+	background:#ddd;
+    cursor:pointer;
+}
+			   
+@font-face{
+	font-family : "ravie";
+	src : url(RAVIE.ttf);
+	src : url(RAVIE.eot);
+}
+
+h1 { font-family : "ravie"; 
+	color : blue;
+}
+
+h2 { color : blue; }
+
+a:link {
+	color: #0000ff; 
+	text-decoration: underline; }
+a:active {
+	color: #0000ff; 
+	text-decoration: underline; }
+a:visited {
+	color: #0000AA; 
+	text-decoration: underline; }
+a:hover {
+	color: #00FFFF; 
+	text-decoration: none; }
