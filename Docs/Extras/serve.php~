@@ -1,3 +1,0 @@
-<?php
-    echo ( sending( ['i','u'], ['we','all'] ) );
-?>
